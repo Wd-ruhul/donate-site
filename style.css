@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight:900;
+}
+.top-banner{
+  background-image: url(images/donation3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.top-banner-content{
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.top-banner-heading{
+color: #fff;
+
+}
+.top-banner-paragraph{
+  color: #fff;
+
+  
+}
+.btn{
+  text-decoration: none;
+  color: #fff;
+  background-color:#FF5959;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+.from-container{
+  display: flex;
+  width: 600px;
+  
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.hide-radio-circle{
+  display: none;
+}
+.radio-label{
+
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.radio-label:hover{
+
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  border: 2px solid  #FF5959;
+  cursor: pointer;
+  margin-left: 30px;
+  background-color:#FFEEEE
+
+}
+input[type=text]{
+  border:0;
+  outline: 0;
+  border-bottom: 2px solid #ddd;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.donate-plan-container{
+  display: flex;
+  width: 900px;
+  margin :0 auto;
+}
+#food-plan{
+  background-color:#EDF5F6 ;
+}
+#shelter-plan{
+  background-color:#FFEEEE ;
+}
+#education-plan{
+  background-color: #FFF4D6;
+}
+.plan-box{
+  width: 300px;
+  border-radius: 5px;
+  height: 300px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+#wrapper-box{
+  width: 700px;
+  height: 100px;
+  background-color: #FFF4D6;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 50px;
+}
+.email{
+  padding: 15px;
+  width:30%;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+footer{
+  background-color: black;
+  padding: 40px;
+}
+#footer-heading{
+  color: #FF5959;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#footer-paragraph{
+  color: #fff;
+  text-align: center;
+}
