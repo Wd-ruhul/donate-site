@@ -9,6 +9,10 @@ h1{
   text-align: center;
   font-weight:900;
 }
+.paragraph-position{
+  text-align: center;
+
+}
 .top-banner{
   background-image: url(images/donation3.jpg);
   background-repeat: no-repeat;
@@ -109,20 +113,53 @@ input[type=text]{
 
 #wrapper-box{
   width: 700px;
-  height: 100px;
+  height: 50pxpx;
   background-color: #FFF4D6;
   margin: 0 auto;
   margin-bottom: 100px;
   padding: 50px;
+ 
+}
+.email-subscribe-box{
+  width:400px;
+  margin: 0 auto;
 }
 .email{
   padding: 15px;
-  width:30%;
+  width:200px;
+  
   background-color: #D9D9D9;
   border: none;
   border-radius: 5px;
   outline: none;
 }
+.subscribe-btn{
+  padding: 15px;
+  width: 150px;
+  background-color: #FF5959;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#campaign-container{
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.camp-box{
+  width: 300px;
+  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  padding: 20px;
+  margin-left:20px;
+  border-radius: 5px;
+}
+.camp-box img{
+  width: 300px;
+}
+
 
 footer{
   background-color: black;
