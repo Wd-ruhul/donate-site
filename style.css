@@ -1,176 +1,193 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-h1{
+h1 {
   font-size: 50px;
   text-align: center;
-  font-weight:900;
+  font-weight: 900;
 }
-.paragraph-position{
+.paragraph-position {
   text-align: center;
-
+  color: #abafaf;
 }
-.top-banner{
+/*deaign top banner Section*/
+#top-banner {
   background-image: url(images/donation3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
 }
-.top-banner-content{
+.top-banner-content {
   text-align: center;
   padding: 50px;
-  
 }
 
-.top-banner-heading{
-color: #fff;
-
-}
-.top-banner-paragraph{
+.top-banner-heading {
   color: #fff;
-
-  
 }
-.btn{
+.top-banner-paragraph {
+  color: #fff;
+}
+.btn {
   text-decoration: none;
   color: #fff;
-  background-color:#FF5959;
+  background-color: #ff5959;
   padding: 10px 20px;
   border-radius: 5px;
 }
+/*start donate amount Section design*/
 
-#wrapper{
+#donate-amount {
+  margin-bottom: 100px;
+}
+#wrapper {
   width: 900px;
   margin: 0 auto;
 }
-.from-container{
+.from-container {
   display: flex;
   width: 600px;
-  
+
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.hide-radio-circle{
+.hide-radio-circle {
   display: none;
 }
-.radio-label{
-
+.radio-label {
   padding: 40px;
   text-align: center;
-  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.35);
   border: 1px solid #fff;
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 10px;
+  color: #707070;
+  font-weight: 900;
+  font-size: 30px;
 }
 
-.radio-label:hover{
-
+.radio-label:hover {
   padding: 40px;
   text-align: center;
-  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
-  border: 2px solid  #FF5959;
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.35);
+  border: 2px solid #ff5959;
   cursor: pointer;
-  margin-left: 30px;
-  background-color:#FFEEEE
-
+  margin-left: 10px;
+  background-color: #ffeeee;
+  color: #ff5959;
+  font-weight: 900;
+  font-size: 30px;
 }
-input[type=text]{
-  border:0;
+input[type="text"] {
+  border: 0;
   outline: 0;
   border-bottom: 2px solid #ddd;
   background-color: #fff;
   display: block;
   text-align: center;
-  width: 400px;
+  width: 600px;
   padding: 20px;
   margin-bottom: 10px;
+  font-size: 16px;
+  color: #707070;
 }
-
-.donate-plan-container{
+.donate-btn {
+  padding: 15px;
+  width: 150px;
+  background-color: #ff5959;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*donate plan Section design start*/
+.donate-plan-container {
   display: flex;
   width: 900px;
-  margin :0 auto;
+  margin: 0 auto;
 }
-#food-plan{
-  background-color:#EDF5F6 ;
+#food-plan {
+  background-color: #edf5f6;
 }
-#shelter-plan{
-  background-color:#FFEEEE ;
+#shelter-plan {
+  background-color: #ffeeee;
 }
-#education-plan{
-  background-color: #FFF4D6;
+#education-plan {
+  background-color: #fff4d6;
 }
-.plan-box{
+.plan-box {
   width: 300px;
   border-radius: 5px;
   height: 300px;
   margin-right: 20px;
   padding: 20px;
 }
-
-#wrapper-box{
+/*update Section design start*/
+#wrapper-box {
   width: 700px;
   height: 50pxpx;
-  background-color: #FFF4D6;
+  background-color: #fff4d6;
   margin: 0 auto;
   margin-bottom: 100px;
   padding: 50px;
- 
 }
-.email-subscribe-box{
-  width:400px;
+.email-subscribe-box {
+  width: 400px;
   margin: 0 auto;
 }
-.email{
+.email {
   padding: 15px;
-  width:200px;
-  
-  background-color: #D9D9D9;
+  width: 200px;
+
+  background-color: #d9d9d9;
   border: none;
   border-radius: 5px;
   outline: none;
 }
-.subscribe-btn{
+.subscribe-btn {
   padding: 15px;
   width: 150px;
-  background-color: #FF5959;
+  background-color: #ff5959;
   border: none;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
 }
-
-#campaign-container{
+/* recent-campaign section Section design start*/
+#campaign-container {
   display: flex;
   width: 1000px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 
-.camp-box{
+.camp-box {
   width: 300px;
-  box-shadow: 0 4px 12px -4px rgba(0,0,0,0.35);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 20px;
-  margin-left:20px;
+  margin-left: 20px;
   border-radius: 5px;
+  background-color: #f7fefb;
 }
-.camp-box img{
+.camp-box img {
   width: 300px;
 }
-
-
-footer{
+/*footer Section design start*/
+footer {
   background-color: black;
   padding: 40px;
 }
-#footer-heading{
-  color: #FF5959;
+#footer-heading {
+  color: #ff5959;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Splash", cursive;
+  font-family: "The Nautigal", cursive;
 }
-#footer-paragraph{
+#footer-paragraph {
   color: #fff;
   text-align: center;
 }
